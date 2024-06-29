@@ -54,26 +54,27 @@ function sidebarEC() {
       collapsible: true,
       items: [
         { text: '课程简介', link: '/' },
-        { text: '电路基本概念', link: '/concepts' },
-        { text: '电路分析的基本方法和定理', link: '/methods' },
-        { text: '正弦交流电路', link: '/phasor' },
-        { text: '过渡过程的经典解法', link: '/transition' },
-        { text: '谐振电路和滤波器', link: '/resonator' },
-        { text: '磁耦合电路', link: '/coupling' }
+        { text: '01-电路基本概念', link: '/concepts' },
+        { text: '02-电路的等效变换', link: '/transform' },
+        { text: '03-电路分析的基本方法和定理', link: '/methods' },
+        { text: '04-动态电路的时域分析', link: '/transition' },
+        { text: '05-正弦稳态电路的相量分析', link: '/phasor' },
+        // { text: '谐振电路和滤波器', link: '/resonator' },
+        // { text: '磁耦合电路', link: '/coupling' }
       ]
     },
     {
       text: 'Microelectronic Circuits',
       collapsible: true,
       items: [
-        { text: '二极管', link: '/diode' },
-        { text: '三极管', link: '/bjt' },
-        { text: '场效应晶体管', link: '/mosfet' },
-        { text: '差分和多级放大器', link: '/diff' },
-        { text: '频率响应', link: '/freq' },
-        { text: '反馈', link: '/feedbak' },
-        { text: '功率放大器', link: '/pa' },
-        { text: '运算放大器', link: '/opam' },
+        { text: '06-二极管', link: '/diode' },
+        { text: '07-三极管', link: '/bjt' },
+        { text: '08-场效应晶体管', link: '/mosfet' },
+        { text: '09-理想运算放大器', link: '/opam' },
+        // { text: '差分和多级放大器', link: '/diff' },
+        { text: '10-频率响应', link: '/freq' },
+        { text: '11-反馈', link: '/feedbak' },
+        { text: '12-功率放大器', link: '/pa' },
         { text: '综合', link: '/int' }
       ]
     }
