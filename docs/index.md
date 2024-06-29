@@ -25,7 +25,13 @@ LTspice® is a powerful, fast, and free SPICE simulator software, schematic capt
 * Download: https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html
 * A concise tutorial: http://garytuttle.ee/spice/
 
-**本网站用于课程辅助，主要包括习题及参考解答，使用过程中若发现有错误之处，欢迎通过网站右上角的 Github 提 Pull Request，谢谢！**
+
+
+::: tip
+
+本网站用于课程辅助，主要包括习题及参考解答，使用过程中若发现有错误之处，欢迎通过网站右上角的 Github 提 Pull Request，谢谢！
+
+::: 
 
 
 
