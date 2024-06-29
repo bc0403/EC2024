@@ -1,4 +1,4 @@
-# EC2022
+# EC2024
 Course material for "Fundamentals of Electronic Circuits"
 
 ## References
@@ -9,7 +9,7 @@ Course material for "Fundamentals of Electronic Circuits"
 
 
 ## Website
-<https://bc0403.github.io/EC2022/>
+<https://bc0403.github.io/EC2024/>
 
 ## Changelog
-Detailed changes for each released version are documented in the [CHANGLOG](https://github.com/bc0403/EC2022/blob/main/CHANGELOG.md)
+Detailed changes for each released version are documented in the [CHANGLOG](https://github.com/bc0403/EC2024/blob/main/CHANGELOG.md)

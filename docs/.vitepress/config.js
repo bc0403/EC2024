@@ -4,7 +4,7 @@ const customElements = ['mjx-container'];
 export default {
   title: 'Fundamentals of Electronic Circuits',
   description: 'course material',
-  base: '/EC2022',
+  base: '/EC2024',
   lastUpdated: true,
 
   //Theme related configurations
@@ -15,7 +15,7 @@ export default {
     },
 
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/bc0403/EC2022'}
+      { icon: 'github', link: 'https://github.com/bc0403/EC2024' }
     ]
   },
 
@@ -36,13 +36,13 @@ export default {
   // for size warning
   build: {
     rollupOptions: {
-        output:{
-            manualChunks(id) {
-                if (id.includes('node_modules')) {
-                    return id.toString().split('node_modules/')[1].split('/')[0].toString();
-                }
-            }
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return id.toString().split('node_modules/')[1].split('/')[0].toString();
+          }
         }
+      }
     }
   }
 };
@@ -74,7 +74,7 @@ function sidebarEC() {
         { text: '反馈', link: '/feedbak' },
         { text: '功率放大器', link: '/pa' },
         { text: '运算放大器', link: '/opam' },
-        { text: '综合', link: '/int'}
+        { text: '综合', link: '/int' }
       ]
     }
   ]

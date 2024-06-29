@@ -1,3 +1,6 @@
+## 1.0.0
+* upgrade vitepress to v1.2.3
+
 ## 0.2.3
 * upgrade vitepress to v1.0.0-rc.24
 * change to Macbook Arm platform (M2Pro)
