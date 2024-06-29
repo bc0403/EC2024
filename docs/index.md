@@ -8,6 +8,16 @@ This course covers the fundamentals of electric circuit theory and analog circui
 
 
 
+# Textbooks
+
+1. Charles K. Alexander, Matthew N. O. Sadiku, Fundamentals of Electric Circuits (7th Edition), McGraw-Hill Education, 2021.
+2. Adel S. Sedra, Kenneth C. Smith, Tony Chan Carusone, and Vincent Gaudet, Microelectronic Circuits (8th Edition), Oxford University Press，2020.
+3. [optional] 邱关源，《电路》（第5版），高等教育出版社，2006年。
+4. [optional] 童诗白，华成英，《模拟电子技术基础》（第五版），高等教育出版社，2015年。
+5. Available internally: http://10.105.5.75/CourseMaterials/WebHome
+
+
+
 # LTSpice for Circuit Simulation
 
 LTspice® is a powerful, fast, and free SPICE simulator software, schematic capture and waveform viewer with enhancements and models for improving the simulation of analog circuits. Its graphical schematic capture interface allows you to probe schematics and produce simulation results, which can be explored further through the built-in waveform viewer.
