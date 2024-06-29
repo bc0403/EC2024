@@ -1,4 +1,11 @@
 mjx-container {
   display: inline-block;
-  margin: auto 2px -2px;
+  margin: 0 !important;
+  /* Remove the margin to eliminate the extra space */
+  overflow: hidden;
+  /* Ensure no overflow causing scrollbars */
+  /* max-width: 100%;
+  min-width: 0; */
+  vertical-align: middle;
+  line-height: 1;
 }
