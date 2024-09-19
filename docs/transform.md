@@ -514,15 +514,7 @@ D. 360 Ω、360 Ω、40 Ω
 
 ## 知识点6：电源变换
 
-1、采用电源变换，求下列电路中的 $i_o$
-
-<img src="./methods.assets/image-20221014141503636.png" alt="image-20221014141503636" style="zoom:50%;" />
-
-> <img src="./methods.assets/image-20221014141543207.png" alt="image-20221014141543207" style="zoom:40%;" />
-
-
-
-2、采用电源变化，求下图中的 $i_o$
+1、采用电源变化，求下图中的 $i_o$
 
 <img src="./methods.assets/image-20221016170855635.png" alt="image-20221016170855635" style="zoom:50%;" />
 

@@ -821,6 +821,12 @@ C. 功率
 
 
 
+9、采用电源变换和叠加原理，求下列电路中的 $i_o$
+
+<img src="./methods.assets/image-20221014141503636.png" alt="image-20221014141503636" style="zoom:50%;" />
+
+> <img src="./methods.assets/image-20221014141543207.png" alt="image-20221014141543207" style="zoom:40%;" />
+
 ## 知识点4：戴维南定理
 
 1、用戴维南定理求 $V$ 。
