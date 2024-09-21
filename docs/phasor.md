@@ -675,6 +675,42 @@ D. $Z_L=|Z_{Th}|$​
 
 
 
+16. 用网孔电流法求解下图中的 $\vec{I_o}$ 。
+
+    <img src="./phasor.assets/2-4-8.png" alt="2-4-8" style="zoom: 50%;" />
+
+    > 解：
+    >
+    > 设三个网孔的电流从左往右依次为 $\vec{I_1}$、$\vec{I_2}$、$\vec{I_3}$，方向为顺时针。
+    >
+    > 则有网孔电流方程
+    >
+    > $\begin{cases}	-20\angle60°+40\vec{I_1}+(-j20)(\vec{I_1}-\vec{I_2})=0 \\ (-j20 \times2 +j60)\vec{I_2}-(-j20)\vec{I_1}-(-j20)\vec{I_3}=0 \\ -j20(\vec{I_3}-\vec{I_2})+40\vec{I_3}+10\angle0°=0	\end{cases}$ 
+    >
+    > 计算得到 $\begin{cases} \vec{I_1}=(0.01347+j0.3398){\rm A} \\ \vec{I_2}=(0.2-j0.1332){\rm A} \\ \vec{I_3}=(-0.2133-j0.2066){\rm A} \end{cases}$ 
+    >
+    > $\vec{I_o}=\vec{I_2}=(0.2-j0.1332){\rm A}$    
+    >
+    > <img src="./phasor.assets/image-20220913171230401.png" alt="image-20220913171230401" style="zoom:50%;" />
+
+17. 如下图所示电路，设 $v_{s1}=40\cos(2000t-36.87°){\rm V}$，$v_{s2}=100\sin(2000t-16.26°){\rm V}$，用节点电压法求 $v_o(t)$ 的稳态表达式。
+
+    <img src="./phasor.assets/2-5-12.png" alt="2-5-12" style="zoom: 50%;" />
+
+    > 解：
+    >
+    > 以底端节点作为参考节点，则上方节点电压为 $v_o$ 。
+    >
+    > 列节点电压方程
+    >
+    > $\frac{v_o}{20}+\frac{v_o-v_{s1}}{j \omega L}+\frac{v_o-v_{s2}}{\frac{1}{j \omega C}}=0$ 
+    >
+    > 其中，$\omega = 2000$，代入 $C,L,v_{s1},v_{s2}$ 计算得：
+    >
+    > $v_o(t)=j\frac{0.4v_{s2}-0.25v_{s1}}{0.05+j0.15}=238.2\angle-102.2°{\rm V}=238.2\cos(2000t-102.2°){\rm V}$ 
+    >
+    > <img src="./phasor.assets/image-20220913173751086.png" alt="image-20220913173751086" style="zoom:50%;" />
+
 ## 知识点4：其他
 
 1、下列哪种说法不正确？
