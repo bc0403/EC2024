@@ -22,7 +22,14 @@
 
 ::: tip
 
-MOSFET结构与原理、MOSFET的特性和等效电路模型、沟道长度调制效应、MOSFET放大电路分析计算（共源、共漏、共栅）。
+* 平方模型：$i_D = \frac{1}{2}\mu_n C_{ox}\frac{W}{L}(v_{GS}-V_{TH})^2$
+* 小信号模型：
+  * $g_m = \mu_n C_{ox} \frac{W}{L} V_{OV} = \sqrt{2\mu_n C_{ox} \frac{W}{L} I_D} = \frac{I_D}{V_{OV}/2}$
+  * $r_o = \frac{|V_A|}{I_D} = \frac{1}{\lambda I_D}$
+  * 小信号模型的近似前提：$v_{gs} \ll 2V_{OV}$
+* MOSFET工作于饱和区，则：
+  * 对于nmos，$v_D$ 最低不得低于 $v_G - V_{TH}$
+  * 对于pmos，$v_D$ 最高不得高于 $v_G + |V_{TH}|$
 
 :::
 

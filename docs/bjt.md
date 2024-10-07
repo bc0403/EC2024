@@ -27,6 +27,7 @@
   * $g_m = \frac{I_C}{V_T}$
   * $r_\pi = \frac{\beta}{g_m}$
   * $r_o = \frac{|V_A|}{I_C}$
+  * 小信号模型的近似前提： $v_{be} \ll V_T$，按1/5近似，则 $v_{be}$ 需小于 5mV
 * BJT 工作于放大区，则：
   * 对于npn，$v_C$ 最低不得低于 $v_B - 0.4$
   * 对于pnp，$v_C$ 最高不得高于 $v_B + 0.4$
