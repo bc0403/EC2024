@@ -258,7 +258,7 @@ D. $-6\rm{A}$​
 
 <img src="./methods.assets/2-2-1.png" alt="2-2-1" style="zoom: 50%;" />
 
-> $-0.2\rm{A}$，*列KVL方程，*$(3V - 5V)/(4\Omega + 6\Omega) = -0.2A $
+> $-0.2\rm{A}$，*列KVL方程，* $(3V - 5V)/(4\Omega + 6\Omega) = -0.2A$
 
 
 
