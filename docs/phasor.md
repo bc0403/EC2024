@@ -619,7 +619,7 @@ D. $Z_L=|Z_{Th}|$​
 
 
 
-11、用节点电压法，$v_i(t) = 10cos(1000t)$，求 $v_o(t)$
+11、下图中，$v_i(t) = 10cos(1000t)$，请用节点电压法，求 $v_o(t)$
 
 <img src="./phasor.assets/image-20221016182525660.png" alt="image-20221016182525660" style="zoom:50%;" />
 
