@@ -389,6 +389,12 @@ D. 2 A
 
 > B
 >
+> 参考一：
+>
+> <img src="./phasor.assets/image-20241025084056452.png" alt="image-20241025084056452" style="zoom:60%;" />
+>
+> 参考二：
+>
 > <img src="./phasor.assets/3-2-10-solution.png" alt="3-2-10-solution" style="zoom:50%;" />
 
 
