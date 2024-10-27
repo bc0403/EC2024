@@ -1150,3 +1150,29 @@ D. 不能确定
 <img src="./methods.assets/image-20221014142208664.png" alt="image-20221014142208664" style="zoom:50%;" />
 
 > <img src="./methods.assets/image-20221014142239724.png" alt="image-20221014142239724" style="zoom:40%;" />
+
+5、下图所示的负载电阻 $R_L$ 可变，试问 $R_L$ 等于何值时可吸收最大功率？求此功率 $P_{Lmax}$ 以及电压源发出的功率 $P_S$。
+
+<img src="./methods.assets/image-20241027195245361.png" alt="image-20241027195245361" style="zoom:70%;" />
+
+> 把负载电阻 $R_L$以外的电路进行戴维南等效。
+>
+> 先求开路电压：
+>
+> <img src="./methods.assets/image-20241027195328724.png" alt="image-20241027195328724" style="zoom:60%;" />
+>
+> <img src="./methods.assets/image-20241027195345127.png" alt="image-20241027195345127" style="zoom:50%;" />
+>
+> 然后求等效输入电阻 $R_{TH}$：
+>
+> <img src="./methods.assets/image-20241027195414179.png" alt="image-20241027195414179" style="zoom:50%;" />
+>
+> <img src="./methods.assets/image-20241027195435816.png" alt="image-20241027195435816" style="zoom:50%;" />
+>
+> <img src="./methods.assets/image-20241027195456849.png" alt="image-20241027195456849" style="zoom:50%;" />
+>
+> 最后求电源发出的功率：
+>
+> <img src="./methods.assets/image-20241027195533891.png" alt="image-20241027195533891" style="zoom:50%;" />
+>
+> <img src="./methods.assets/image-20241027195601373.png" alt="image-20241027195601373" style="zoom:50%;" />
