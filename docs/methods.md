@@ -298,7 +298,19 @@
 >
 > 
 
+13、用网孔电流法求下图所示电路中流过电阻*R*的电流 *I*。
 
+<img src="./methods.assets/image-20241027194131334.png" alt="image-20241027194131334" style="zoom:60%;" />
+
+> 将受控电流源转换为受控电压源。设从左到右3个网孔的电流分别为*I*1、*I*2、*I*3，电流参考方向均为顺时针方向。
+>
+> <img src="./methods.assets/image-20241027194202658.png" alt="image-20241027194202658" style="zoom:60%;" />
+>
+> <img src="./methods.assets/image-20241027194231176.png" alt="image-20241027194231176" style="zoom:50%;" />
+>
+> 得
+>
+> <img src="./methods.assets/image-20241027194256418.png" alt="image-20241027194256418" style="zoom:50%;" />
 
 ## 知识点2：节点电压法
 
