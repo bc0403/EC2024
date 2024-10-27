@@ -727,6 +727,12 @@ D. $Z_L=|Z_{Th}|$​
     >
     > <img src="./phasor.assets/image-20220913173751086.png" alt="image-20220913173751086" style="zoom:50%;" />
 
+18、已知 $L_1$ = 10 mH，$C_1$ = 50 mF，$C_2$ = 100 mF，求正弦稳态电路中电容 $C_1$ 两端的电压 $v_1(t)$。
+
+<img src="./phasor.assets/image-20241027202458847.png" alt="image-20241027202458847" style="zoom:70%;" />
+
+> <img src="./phasor.assets/image-20241027202617510.png" alt="image-20241027202617510" style="zoom:50%;" />
+
 ## 知识点4：其他
 
 1、下列哪种说法不正确？
