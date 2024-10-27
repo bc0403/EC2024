@@ -475,7 +475,7 @@ D. $i(t)=8+6e^{-t}$
 
 
 
-22、如下图所示电路，已知当 $t>0$ 时，$v_s = 5\;V$，$v_C = 3 + 6e^{-0.5t}\;V$；若  $t>0$ 时，$v_s$ 为 10 V，其他初始条件不变，求 $t>0$ 时的 $v_C$ 表达式。
+22、如下图所示电路，已知当 $t>0$ 时，$v_s = 5\;V$，$v_C = 3 + 6e^{-0.5t}\;V$；若  $t>0$ 时，$v_s$ 改为 10 V，其他初始条件不变，求 $t>0$ 时的 $v_C$ 表达式。
 
 <img src="./transition.assets/image-20241027200345757.png" alt="image-20241027200345757" style="zoom:90%;" />
 
@@ -748,8 +748,39 @@ D. $i(t)=8+6e^{-t}$
 >
 > ​		$v(t)=-[L\frac{di(t)}{dt}+i(t)R]=-0.0531e^{-19.65(t-1)}+2.981e^{-0.35(t-1)}(t \geqslant 1)$ 
 
+13、如下图所示电路，在 *t* = 0 s 时开关S闭合。计算：
 
+（1）开关闭合前、后达到稳态时电感和电容中的储能。
 
+（2）列出 *t* > 0 时的电路微分方程，并求解图中标识的参量 *v*、*i* 的时域表达式。
+
+（3）欲使 *t* > 0 时电路处于临界阻尼状态，电阻 $R_1$ 的阻值应如何调整。
+
+<img src="./transition.assets/image-20241027201330957.png" alt="image-20241027201330957" style="zoom:70%;" />
+
+>(1)
+>
+> <img src="./transition.assets/image-20241027201441525.png" alt="image-20241027201441525" style="zoom:40%;" />
+>
+>(2) 列微分方程：
+>
+><img src="./transition.assets/image-20241027201538491.png" alt="image-20241027201538491" style="zoom:50%;" />
+>
+><img src="./transition.assets/image-20241027201548876.png" alt="image-20241027201548876" style="zoom:90%;" />
+>
+><img src="./transition.assets/image-20241027201608083.png" alt="image-20241027201608083" style="zoom:90%;" />
+>
+><img src="./transition.assets/image-20241027201630779.png" alt="image-20241027201630779" style="zoom:50%;" />
+>
+><img src="./transition.assets/image-20241027201712488.png" alt="image-20241027201712488" style="zoom:50%;" />
+>
+><img src="./transition.assets/image-20241027201822966.png" alt="image-20241027201822966" style="zoom:50%;" />
+>
+>（3）欲使电路 *t* > 0时处于临界阻尼状态，
+>
+><img src="./transition.assets/image-20241027201904546.png" alt="image-20241027201904546" style="zoom:50%;" />
+>
+>
 
 ## 知识点3：阶跃响应与冲激响应
 
