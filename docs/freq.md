@@ -174,21 +174,21 @@ C. 晶体管的非线性特性           		D. 放大电路的静态工作点不�
 
 > B A
 
-3、如下图所示电路，已知 $\beta  = 100$，${V_{BE}} = 0.7{\rm{ V}}$。
+3、~~如下图所示电路，已知 $\beta  = 100$，${V_{BE}} = 0.7{\rm{ V}}$。~~
 
-(3)  求 ${C_1}$，${C_2}$，${C_E}$ 和 ${C_3}$ 对应的低频截止频率。
+~~(3)  求 ${C_1}$，${C_2}$，${C_E}$ 和 ${C_3}$ 对应的低频截止频率。~~
 
-<img src="./freq.assets/11-2-3.png" alt="11-2-3" style="zoom:50%;" />
+~~<img src="./freq.assets/11-2-3.png" alt="11-2-3" style="zoom:50%;" />~~
 
-> (3)  ${f_{LC1}} = \frac{1}{{2\pi \left( {{R_{B1}}//{R_{B2}}//{r_{\pi 1}}} \right){C_1}}} = \frac{1}{{2\pi \left( {56//27//5.43} \right) \times 10 \times {{10}^{ - 3}}}} \approx 3.80{\rm{ Hz}}$ 
+> ~~(3)  ${f_{LC1}} = \frac{1}{{2\pi \left( {{R_{B1}}//{R_{B2}}//{r_{\pi 1}}} \right){C_1}}} = \frac{1}{{2\pi \left( {56//27//5.43} \right) \times 10 \times {{10}^{ - 3}}}} \approx 3.80{\rm{ Hz}}$~~ 
 >
-> ​	  ${f_{LC2}} = \frac{1}{{2\pi \left( {{R_{C1}} + {R_{i2}}} \right){C_2}}} = \frac{1}{{2\pi \left( {2 + 2.89} \right) \times 10 \times {{10}^{ - 3}}}} \approx 3.25{\rm{ Hz}}$ 
+> ​	  ~~${f_{LC2}} = \frac{1}{{2\pi \left( {{R_{C1}} + {R_{i2}}} \right){C_2}}} = \frac{1}{{2\pi \left( {2 + 2.89} \right) \times 10 \times {{10}^{ - 3}}}} \approx 3.25{\rm{ Hz}}$~~ 
 >
-> ​	  ${f_{L{C_E}}} = \frac{1}{{2\pi \left( {{R_{E1}}//\frac{{{r_{\pi 1}}}}{{\beta  + 1}}} \right){C_E}}} = \frac{1}{{2\pi \left( {2//\frac{{5.43}}{{100 + 1}}} \right) \times 0.1}} \approx 30.40{\rm{ Hz}}$ 
+> ​	  ~~${f_{L{C_E}}} = \frac{1}{{2\pi \left( {{R_{E1}}//\frac{{{r_{\pi 1}}}}{{\beta  + 1}}} \right){C_E}}} = \frac{1}{{2\pi \left( {2//\frac{{5.43}}{{100 + 1}}} \right) \times 0.1}} \approx 30.40{\rm{ Hz}}$~~ 
 >
-> ​	  由于 $C_L$ 极小，在低频段用开路等效。
+> ​	  ~~由于 $C_L$ 极小，在低频段用开路等效。~~
 >
-> ​	  ${f_{Lc3}} = \frac{1}{{2\pi \left( {{R_{C2}} + {R_L}} \right){C_3}}} = \frac{1}{{2\pi \left( {3 + 3} \right) \times 10 \times {{10}^{ - 3}}}} \approx 2.65{\rm{ Hz}}$ 
+> ​	  ~~${f_{Lc3}} = \frac{1}{{2\pi \left( {{R_{C2}} + {R_L}} \right){C_3}}} = \frac{1}{{2\pi \left( {3 + 3} \right) \times 10 \times {{10}^{ - 3}}}} \approx 2.65{\rm{ Hz}}$~~ 
 
 4、如下图所示电路，已知 $C_{gs}=C_{gd}=5{\rm pF}$，$g_m=5{\rm mS}$，$C_1=C_2=C_S=10{\rm {\mu F}}$，求中频电压增益 $A_m=v_o/v_s$、高频截止频率 $f_H$ 和低频截止频率 $f_L$ 。
 
