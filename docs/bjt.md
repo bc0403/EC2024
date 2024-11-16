@@ -38,13 +38,13 @@
 
 ## 知识点1：三极管的结构与工作原理
 
-1、三极管又称为双极型晶体管，因为 ________ 。
+~~1、三极管又称为双极型晶体管，因为 ________ 。~~
 
->工作时电子和空穴两种载流子同时参与导电过程
+>~~工作时电子和空穴两种载流子同时参与导电过程~~
 
-2、在放大区，晶体管的集电极电流是 ________ （少数/多数）载流子运动产生的。
+~~2、在放大区，晶体管的集电极电流是 ________ （少数/多数）载流子运动产生的。~~
 
->少数
+>~~少数~~
 
 3、一个 pnp 三极管工作在饱和区，则满足 ________ 。
 
@@ -296,35 +296,35 @@ A. 5.6 kΩ，10 kΩ			B. 5.6 kΩ，510 kΩ			C. 5.6 kΩ，1 MΩ			D. 100 kΩ，1
 
 > C。处于放大区，要求 $I_C R_C$ 小，从而要求 $R_B$ 大，$R_C$ 小。
 
-12、如下图所示放大电路，已知各晶体管的 $\beta=50$，$V_{BE}=0.7{\rm V}$，电阻 $R_1=150{\rm k \Omega}$，$R_3=7.8{\rm k \Omega}$，$R_4=R_7=2{\rm k \Omega}$，$R_5=R_6=1{\rm k \Omega}$，电位器 $R_W=200{\rm \Omega}$，且滑动端处于中间位置，电源电压 $V_{CC}=V_{EE}=10{\rm V}$。若要求静态时输出电压 $v_O=0{\rm V}$，问电阻 $R_2$ 应选多大？
+~~12、如下图所示放大电路，已知各晶体管的 $\beta=50$，$V_{BE}=0.7{\rm V}$，电阻 $R_1=150{\rm k \Omega}$，$R_3=7.8{\rm k \Omega}$，$R_4=R_7=2{\rm k \Omega}$，$R_5=R_6=1{\rm k \Omega}$，电位器 $R_W=200{\rm \Omega}$，且滑动端处于中间位置，电源电压 $V_{CC}=V_{EE}=10{\rm V}$。若要求静态时输出电压 $v_O=0{\rm V}$，问电阻 $R_2$ 应选多大？~~
 
-<img src="./bjt.assets/8-3-13.png" alt="8-3-13" style="zoom:60%;" />
+~~<img src="./bjt.assets/8-3-13.png" alt="8-3-13" style="zoom:60%;" />~~
 
-> 若要求静态时，$v_O=0{\rm V}$，则
+> ~~若要求静态时，$v_O=0{\rm V}$，则~~
 >
-> ​		$I_{E3}=\frac{v_o-(-V_{EE})}{R_7}=\frac{0{\rm V}-(-10{\rm V})}{2{\rm k \Omega}}=5{\rm mA}$ 
+> ​		~~$I_{E3}=\frac{v_o-(-V_{EE})}{R_7}=\frac{0{\rm V}-(-10{\rm V})}{2{\rm k \Omega}}=5{\rm mA}$~~ 
 >
-> ​		$I_{B3}=\frac{I_{C3}}{\beta} \approx \frac{I_{E3}}{\beta}=\frac{5{\rm mA}}{50}=0.1{\rm mA}$ 
+> ​		~~$I_{B3}=\frac{I_{C3}}{\beta} \approx \frac{I_{E3}}{\beta}=\frac{5{\rm mA}}{50}=0.1{\rm mA}$~~ 
 >
-> ​		$I_{R_3}=\frac{V_{CC}-V_{BE3}}{R_3}=\frac{10{\rm V}-0.7{\rm V}}{7.8{\rm k \Omega}} \approx 1.2{\rm mA}$ 
+> ​		~~$I_{R_3}=\frac{V_{CC}-V_{BE3}}{R_3}=\frac{10{\rm V}-0.7{\rm V}}{7.8{\rm k \Omega}} \approx 1.2{\rm mA}$~~ 
 >
-> ​		$I_{C1}=I_{R_3}-I_{B3}=1.2{\rm mA}-0.1{\rm mA}=1.1{\rm mA}$ 
+> ​		~~$I_{C1}=I_{R_3}-I_{B3}=1.2{\rm mA}-0.1{\rm mA}=1.1{\rm mA}$~~ 
 >
-> ​		$I_{E4} \approx I_{C4} \approx {I_{C1}}+I_{C2}=2I_{C1}=2.2{\rm mA}$ 
+> ​		~~$I_{E4} \approx I_{C4} \approx {I_{C1}}+I_{C2}=2I_{C1}=2.2{\rm mA}$~~ 
 >
-> 电阻 $R_2$ 两端电压：
+> ~~电阻 $R_2$ 两端电压：~~
 >
-> ​		$V_{R_2}=V_{BE4}+I_{E4}R_4=0.7{\rm V}+2.2{\rm mA} \times 2{\rm k \Omega}=5.1{\rm V}$ 
+> ​		~~$V_{R_2}=V_{BE4}+I_{E4}R_4=0.7{\rm V}+2.2{\rm mA} \times 2{\rm k \Omega}=5.1{\rm V}$~~ 
 >
-> 另一方面：
+> ~~另一方面：~~
 >
-> ​		$V_{R_2} \approx [V_{CC}-(-V_{EE})]\frac{R_2}{R_1+R_2}=2V_{CC}\cdot \frac{R_2}{R_1+R_2}$ 
+> ​		~~$V_{R_2} \approx [V_{CC}-(-V_{EE})]\frac{R_2}{R_1+R_2}=2V_{CC}\cdot \frac{R_2}{R_1+R_2}$~~ 
 >
-> 解出
+> ~~解出~~
 >
-> ​		$R_2=\frac{R_1V_{R_2}}{2V_{CC}-V_{R_2}}=\frac{150{\rm k \Omega} \times 5.1{\rm V}}{2 \times 10{\rm V}-5.1{\rm V}} \approx 51.3{\rm k \Omega}$ 
+> ​		~~$R_2=\frac{R_1V_{R_2}}{2V_{CC}-V_{R_2}}=\frac{150{\rm k \Omega} \times 5.1{\rm V}}{2 \times 10{\rm V}-5.1{\rm V}} \approx 51.3{\rm k \Omega}$~~ 
 >
-> 【注】差分对电路，只要保证两个管子处于放大区， C 处电阻大小的改变基本不影响 $i_C$（忽略厄雷效应）。
+> ~~【注】差分对电路，只要保证两个管子处于放大区， C 处电阻大小的改变基本不影响 $i_C$（忽略厄雷效应）。~~
 
 13、下图所示为共射放大电路及对应三极管的伏安特性图。
 
