@@ -157,8 +157,8 @@ A. 栅极电压		B. 源极电压		C. 栅极电压＋ $V_t$		D. 栅极电压－ $
 >
 > ​	$\begin{array}{l}
 > {A_v} =  - {g_m}{R_o} =  - \sqrt {2{I_D} \cdot \mu {C_{ox}} \cdot {{\left( {\frac{W}{L}} \right)}_1}}  \times {R_o}\\
-> {\rm{    }} =  - \sqrt {2 \times 200 \times {{10}^{ - 6}} \times 40 \times {{10}^{ - 6}} \times 1}  \times 125 \times {10^3}\\
-> {\rm{    }} \approx  - 15.8
+> {\rm{    }} =  - \sqrt {2 \times 200 \times {{10}^{ - 6}} \times 20 \times {{10}^{ - 6}} \times 1}  \times 125 \times {10^3}\\
+> {\rm{    }} \approx  - 11.18
 > \end{array}$
 
 2、在下图所示的 NMOS 电路中，管子参数为阈值电压 $V_t=1{\rm V}$，$W/L=5$，$μ_nC_{ox}=0.2{\rm{mA/V^2}}$，则直流偏置电流 $I_D=$ ________ mA。
