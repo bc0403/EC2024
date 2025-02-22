@@ -18,18 +18,28 @@ This course covers the fundamentals of electric circuit theory and analog circui
 
 
 
-# LTSpice for Circuit Simulation
+# Circuit Simulation
+
+## LTspice
 
 LTspice® is a powerful, fast, and free SPICE simulator software, schematic capture and waveform viewer with enhancements and models for improving the simulation of analog circuits. Its graphical schematic capture interface allows you to probe schematics and produce simulation results, which can be explored further through the built-in waveform viewer.
 
 * Download: https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html
 * A concise tutorial: http://garytuttle.ee/spice/
 
+## KiCAD & ngspice
 
+KiCad is an [open source](https://en.wikipedia.org/wiki/Open_source) software suite for [Electronic Design Automation](https://en.wikipedia.org/wiki/Electronic_design_automation) (EDA). The programs handle [Schematic Capture](https://en.wikipedia.org/wiki/Schematic_capture), and [PCB](https://en.wikipedia.org/wiki/Printed_circuit_board) Layout with [Gerber](https://en.wikipedia.org/wiki/Gerber_format) and [IPC-2581](http://www.ipc2581.com/) output. The suite runs on Windows, Linux and macOS and is licensed under [GNU GPL v3](http://en.wikipedia.org/wiki/GNU_General_Public_License).
+
+KiCad integrates the open source spice simulator [ngspice](http://ngspice.sourceforge.net/) to provide simulation capability in graphical form through integration with the Schematic Editor.
+
+https://www.kicad.org/
 
 ::: tip
 
-本网站用于课程辅助，主要包括习题及参考解答，使用过程中若发现有错误之处，欢迎通过网站右上角的 Github 提 Pull Request，谢谢！
+本网站用于课程辅助，主要包括习题及参考解答，使用过程中若发现有错误之处，欢迎通过网站右上角的 Github 提 issue 或 Pull Request，谢谢！
+
+网站源代码及相关电路的数学分析、电路仿真亦在Github开源，欢迎指正。
 
 ::: 
 
