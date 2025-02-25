@@ -1,0 +1,11 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th:first-child, td:first-child {
+  width: 150px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
