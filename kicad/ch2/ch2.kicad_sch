@@ -6,8 +6,260 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 90.17 44.45)
-		(size 29.21 7.62)
+		(at 25.4 72.39)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18ec6b36-d7b9-4a4b-baf7-e6ae3f89f00c")
+		(property "Sheetname" "CH02-KP3-03"
+			(at 25.4 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-03.kicad_sch"
+			(at 25.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 101.6)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b9ffe8a-463f-4ad6-aec3-8c9141f81841")
+		(property "Sheetname" "CH02-KP3-07"
+			(at 25.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-07.kicad_sch"
+			(at 25.4 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 57.15)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "543f82fc-0b3a-4807-9c83-7f4380585191")
+		(property "Sheetname" "CH02-KP3-02"
+			(at 25.4 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-02.kicad_sch"
+			(at 25.4 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 116.84)
+		(size 27.94 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c2601e1-0f16-4016-97cf-4b9d58f6b2f3")
+		(property "Sheetname" "CH02-KP3-08"
+			(at 25.4 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-08.kicad_sch"
+			(at 25.4 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 87.63)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f9e832b-6800-46da-8395-11830942febc")
+		(property "Sheetname" "CH02-KP3-06"
+			(at 25.4 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-06.kicad_sch"
+			(at 25.4 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 130.81)
+		(size 27.94 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ade8539b-d733-41cf-be85-5cab920c190b")
+		(property "Sheetname" "CH02-KP3-10"
+			(at 25.4 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CH02-KP3-10.kicad_sch"
+			(at 25.4 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ch2"
+				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 41.91)
+		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +274,7 @@
 		)
 		(uuid "b244994d-8fad-4587-be72-7ae1ac0f9b49")
 		(property "Sheetname" "CH02-KP2-07"
-			(at 90.17 43.7384 0)
+			(at 25.4 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "CH02-KP2-07.kicad_sch"
-			(at 90.17 52.6546 0)
+			(at 25.4 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +300,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 44.45)
+		(at 25.4 26.67)
 		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +316,7 @@
 		)
 		(uuid "ef48fe50-d047-4f6a-888f-8d940606dc75")
 		(property "Sheetname" "CH02-KP2-06"
-			(at 52.07 43.7384 0)
+			(at 25.4 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +325,7 @@
 			)
 		)
 		(property "Sheetfile" "CH02-KP2-06.kicad_sch"
-			(at 52.07 52.6546 0)
+			(at 25.4 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
