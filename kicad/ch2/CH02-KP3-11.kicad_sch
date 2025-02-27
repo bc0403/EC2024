@@ -1036,23 +1036,23 @@
 		)
 		(uuid "ddbfc811-108f-4757-9d5d-a9b807b0a613")
 	)
-	(label "vo"
-		(at 76.2 83.82 0)
+	(label "vo_kp3_11"
+		(at 69.85 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "28042625-c9c8-495a-bb8c-e62918ff1533")
+		(uuid "ad4cd6a3-faf3-42ae-a0cf-fa6476c5a1c0")
 	)
-	(label "vo"
-		(at 95.25 57.15 0)
+	(label "vo_kp3_11"
+		(at 95.25 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c2da4878-65ab-48a5-9166-05f3d15c1d5d")
 	)

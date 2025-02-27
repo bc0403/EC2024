@@ -970,7 +970,7 @@
 		)
 		(uuid "ff3454c1-08a2-4313-9c3e-f225a574a624")
 	)
-	(label "Vo"
+	(label "Vo_kp3_04"
 		(at 78.74 67.31 0)
 		(effects
 			(font
@@ -980,7 +980,7 @@
 		)
 		(uuid "101ea7b2-60be-4156-b2e3-b335fa20e40d")
 	)
-	(label "Vo"
+	(label "Vo_kp3_04"
 		(at 114.3 82.55 180)
 		(effects
 			(font

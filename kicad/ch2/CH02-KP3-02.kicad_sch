@@ -901,16 +901,6 @@
 		)
 		(uuid "fdb41cb2-2500-4bb0-9d94-252b0f08bfd7")
 	)
-	(label "vo"
-		(at 135.89 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34fb91f3-d9c1-432d-ab93-51c7628a0d43")
-	)
 	(symbol
 		(lib_id "Device:R_US")
 		(at 109.22 67.31 90)

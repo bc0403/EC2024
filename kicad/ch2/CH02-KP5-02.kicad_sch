@@ -479,6 +479,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_US_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:0"
 			(power)
 			(pin_numbers
@@ -810,6 +983,17 @@
 		)
 		(uuid "5c431ce2-fc20-459b-80ce-2d2ca263ea5a")
 	)
+	(text "Error Fixed.\n\nby closing the project and only opening a single sheet using the KiCad schematic editor program.\n\nhttps://forum.kicad.info/t/simulation-workflow-best-practise-for-a-complete-project/53856/3"
+		(exclude_from_sim no)
+		(at 50.292 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6f2e98a-164a-4b32-abed-8d61357b4e7a")
+	)
 	(junction
 		(at 88.9 60.96)
 		(diameter 0)
@@ -1001,8 +1185,9 @@
 		(uuid "f919ab4b-25ae-493e-8a6c-e3d05d0d21c5")
 	)
 	(symbol
+		(lib_name "R_US_1")
 		(lib_id "Device:R_US")
-		(at 68.58 69.85 180)
+		(at 68.58 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1010,8 +1195,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb8811c-619b-4838-b6e7-bc33f0bb73a3")
-		(property "Reference" "R52"
-			(at 66.04 71.1201 0)
+		(property "Reference" "R1"
+			(at 71.12 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,11 +1211,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.564 69.596 90)
+			(at 69.596 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,6 +1248,12 @@
 			(uuid "135d39a1-8148-4100-b736-6e9ee5a0bb42")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "R52")
@@ -1081,7 +1272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5946d8-0dd5-42e8-992b-de528ae6cc8c")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 105.41 68.5799 0)
 			(effects
 				(font
@@ -1134,6 +1325,12 @@
 			(uuid "694fc621-7acd-47fb-966c-604f7b178aa2")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "C5")
@@ -1152,7 +1349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1bbc0a-93c9-4f9f-984d-428256f96e5c")
-		(property "Reference" "I8"
+		(property "Reference" "I1"
 			(at 54.61 68.5799 0)
 			(effects
 				(font
@@ -1232,6 +1429,12 @@
 			(uuid "d263d0da-3667-46ff-83b6-0f8484cde268")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "I1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "I8")
@@ -1301,6 +1504,12 @@
 			(uuid "0f7b97b0-0b63-4dde-ac6f-d83b6e6c16ea")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "L1")
@@ -1311,7 +1520,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 88.9 69.85 180)
+		(at 88.9 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1319,8 +1528,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef7409e-b061-4a0b-b6f4-be211c8ee4db")
-		(property "Reference" "R53"
-			(at 86.36 71.1201 0)
+		(property "Reference" "R2"
+			(at 91.44 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,11 +1544,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.884 69.596 90)
+			(at 89.916 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,12 +1575,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b4b5f90e-0ff9-4e83-9a11-cab3bd7a1b10")
+			(uuid "b4b5f90e-0ff9-4e83-9a11-cab3bd7a1b11")
 		)
 		(pin "1"
-			(uuid "135d39a1-8148-4100-b736-6e9ee5a0bb42")
+			(uuid "135d39a1-8148-4100-b736-6e9ee5a0bb43")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "R53")
@@ -1390,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b059dda-e8b5-492b-93b7-d7e2cfefbe63")
-		(property "Reference" "#GND016"
+		(property "Reference" "#GND0101"
 			(at 50.8 87.63 0)
 			(effects
 				(font
@@ -1438,6 +1653,12 @@
 			(uuid "f7735a06-f683-497e-b268-d2483e34dfdd")
 		)
 		(instances
+			(project "CH02-KP5-02"
+				(path "/91953c6e-082e-423a-a84b-0adf7ea4eb58"
+					(reference "#GND0101")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fc72c8c5-f743-437f-8eef-093b2f91e0e9/7f1fd720-65c0-4371-8ff5-0fadc402fcda"
 					(reference "#GND016")
@@ -1446,4 +1667,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
