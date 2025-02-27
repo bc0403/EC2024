@@ -725,7 +725,7 @@ D. 180 Ω、180 Ω、20 Ω
 
 <img src="./transform.assets/image-20221014142541600.png" alt="image-20221014142541600" style="zoom:50%;" />
 
-| 参考答案   | $v_C = 15\,\rm{V}$; $i_L = 7.5\,\rm{A}$                      |
+| 参考答案   | $v_C = 15\,\rm{V}$; $i_L = 7.5\,\rm{A}$; $E_C = 450\,\rm{J}$ |
 | ---------- | ------------------------------------------------------------ |
 | SPCICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP5-02.asc`<br /><img src="./transform.assets/image-20250227165054012.png" alt="image-20250227165054012" style="zoom:50%;" /> |
 
