@@ -57,7 +57,7 @@
 
 **`CH03-KP1-01`**: 用网孔电流法求解下图所示电路中的三个网孔电流 $I_1$、$I_2$ 和 $I_3$ 。
 
-<img src="./methods.assets/2-4-1.png" alt="2-4-1" style="zoom:60%;" />
+<img src="./methods.assets/2-4-1.png" alt="2-4-1" style="zoom:70%;" />
 
 | 参考答案  | $I_1 = 1.84\,\rm{A}$; $I_2 = 0.68\,\rm{A}$; $I_3 = 2.68\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
@@ -94,7 +94,7 @@
 
 **`CH03-KP1-03`**: 用网孔法求下图所示电路中支路电流 $I_4$ 。
 
-<img src="./methods.assets/2-4-3.png" alt="2-4-3" style="zoom:50%;" />
+<img src="./methods.assets/2-4-3.png" alt="2-4-3" style="zoom:60%;" />
 
 | 参考答案  | 1.42 A                                                       |
 | --------- | ------------------------------------------------------------ |
@@ -135,7 +135,7 @@
 
 **`CH03-KP1-04`**: 用网孔电流法求解下图所示电路中的支路电流 $i$ 。
 
-<img src="./methods.assets/2-4-4.png" alt="2-4-4" style="zoom: 40%;" />
+<img src="./methods.assets/2-4-4.png" alt="2-4-4" style="zoom: 50%;" />
 
 | 参考答案  | 1.19 A                                                       |
 | --------- | ------------------------------------------------------------ |
@@ -166,7 +166,7 @@
 
 **`CH03-KP1-05`**: 用网孔电流法求下图所示电路中的电流 $I_1$ 和 $V_o$ 。
 
-<img src="./methods.assets/2-4-5.png" alt="2-4-5" style="zoom: 60%;" />
+<img src="./methods.assets/2-4-5.png" alt="2-4-5" style="zoom: 70%;" />
 
 | 参考答案  | $I_1 = 5\,\rm{A}$; $V_o = -42\,\rm{V}$                       |
 | --------- | ------------------------------------------------------------ |
@@ -205,7 +205,7 @@
 
 **`CH03-KP1-06`**: 用网孔电流法求如下图所示电路中的电压 $v$。
 
-<img src="./methods.assets/2-4-6.png" alt="2-4-6" style="zoom: 60%;" />
+<img src="./methods.assets/2-4-6.png" alt="2-4-6" style="zoom: 70%;" />
 
 | 参考答案  | 4.5 V                                                        |
 | --------- | ------------------------------------------------------------ |
@@ -265,7 +265,7 @@
 
 **`CH03-KP1-08`**: 列出图示电路的网孔电流方程,并求 $I$。
 
-<img src="./methods.assets/2-4-9.png" alt="2-4-9" style="zoom: 50%;" />
+<img src="./methods.assets/2-4-9.png" alt="2-4-9" style="zoom: 60%;" />
 
 | 参考答案  | 0.49 A                                                       |
 | --------- | ------------------------------------------------------------ |
@@ -288,37 +288,65 @@
 
 
 
-9、用网孔电流法，求$I_o$
+**`CH03-KP1-09`**: 用网孔电流法，求$I_o$
 
-<img src="./methods.assets/image-20221014141007501.png" alt="image-20221014141007501" style="zoom:50%;" />
+<img src="./methods.assets/image-20221014141007501.png" alt="image-20221014141007501" style="zoom:60%;" />
+
+| 参考答案  | $-4\,\rm{A}$                                                 |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-09.asc`<br /><img src="./methods.assets/image-20250301154947687.png" alt="image-20250301154947687" style="zoom:40%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_09.m`              |
+
+解析：
 
 > <img src="./methods.assets/image-20221014141037147.png" alt="image-20221014141037147" style="zoom:40%;" />
 
 
 
-10、求图中的三个网孔电流
+**`CH03-KP1-10`**: 求图中的三个网孔电流
 
-<img src="./methods.assets/image-20221014141134899.png" alt="image-20221014141134899" style="zoom:50%;" />
+<img src="./methods.assets/image-20221014141134899.png" alt="image-20221014141134899" style="zoom:60%;" />
+
+| 参考答案  | $i_1 = 4.8\,\rm{A}$; $i_2 = 0.8\,\rm{A}$; $i_3 = 1.6\,\rm{A}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-10.asc`<br /><img src="./methods.assets/image-20250301155808436.png" alt="image-20250301155808436" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_10.m`              |
+
+解析：
 
 > <img src="./methods.assets/image-20221014141207668.png" alt="image-20221014141207668" style="zoom:40%;" />
 
 
 
-11、用网孔电流法，求下图中的 $i_o$
+**`CH03-KP1-11`**: 用网孔电流法，求下图中的 $i_o$
 
-<img src="./methods.assets/image-20221016170223798.png" alt="image-20221016170223798" style="zoom:50%;" />
+<img src="./methods.assets/image-20221016170223798.png" alt="image-20221016170223798" style="zoom:60%;" />
+
+| 参考答案  | $-1.73\,\rm{A}$                                              |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-11.asc`<br /><img src="./methods.assets/image-20250301160737374.png" alt="image-20250301160737374" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_11.m`              |
+
+解析：
 
 > <img src="./methods.assets/image-20221016170248573.png" alt="image-20221016170248573" style="zoom:50%;" />
 
 
 
-12、用网孔电流法求下图所示电路中的支路电流 $i_a \sim i_e$ 。
+**`CH03-KP1-12`**: 用网孔电流法求下图所示电路中的支路电流 $i_a \sim i_e$ 。
 
 <img src="./methods.assets/image-20221108122105347.png" alt="image-20221108122105347" style="zoom:50%;" />
 
-> 解：
->
+| 参考答案  | $i_a = 5.7\,\rm{A}$; $i_b = 4.6\,\rm{A}$; $i_c = 0.97\,\rm{A}$; $i_d = -1.1\,\rm{A}$; $i_e = 3.63\,\rm{A}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-12.asc`<br /><img src="./methods.assets/image-20250301163028251.png" alt="image-20250301163028251" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_12.m`              |
+
+解析：
+
 > <img src="./methods.assets/image-20221108122128366.png" alt="image-20221108122128366" style="zoom:50%;" />
+>
+> 去掉受控电流源，构成 supermesh：
 >
 > ​        $200=85i_1-25i_2-50i_3$ 
 >
@@ -332,55 +360,80 @@
 >
 > ​		$i_d=i_1-i_2=-1.1{\rm A}$；		$i_e=i_1-i_3=3.63{\rm A}$ 
 >
-> 另一种更标准的网孔电流方程如下：
->
-> ​		$\left\{ \begin{array}{l}-25{i_1} + 35{i_2} =  - {V_0}\\85{i_1} - 25{i_2} - 50{i_3} = 200\\-50{i_1} + 150{i_3} = {V_0}\\{i_3} - {i_2} = 4.3\left( {{i_1} - {i_2}} \right)\end{array} \right.$ 
->
-> 
 
-13、用网孔电流法求下图所示电路中流过电阻*R*的电流 *I*。
+**`CH03-KP1-13`**: 用网孔电流法求下图所示电路中流过电阻*R*的电流 *I*。
 
-<img src="./methods.assets/image-20241027194131334.png" alt="image-20241027194131334" style="zoom:60%;" />
+<img src="./methods.assets/image-20241027194131334.png" alt="image-20241027194131334" style="zoom:70%;" />
 
-> 将受控电流源转换为受控电压源。设从左到右3个网孔的电流分别为*I*1、*I*2、*I*3，电流参考方向均为顺时针方向。
+| 参考答案  | 2.45 mA                                                      |
+| --------- | ------------------------------------------------------------ |
+| SPICE模型 | 仿真文件见 Github `kicad/ch3/CH03-KP1-13.asc`<br /><img src="./methods.assets/image-20250301165427770.png" alt="image-20250301165427770" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_13.m`              |
+
+解析：
+
+> 将受控电流源转换为受控电压源（注意下图中电压源为中文教材符号体系，与英文教材不同）。设从左到右3个网孔的电流分别为 $I_1$、$I_2$、$I_3$，电流参考方向均为顺时针方向。
 >
 > <img src="./methods.assets/image-20241027194202658.png" alt="image-20241027194202658" style="zoom:60%;" />
->
-> <img src="./methods.assets/image-20241027194231176.png" alt="image-20241027194231176" style="zoom:50%;" />
->
+> $$
+> \begin{cases}
+> -10 + 5 I_1 - 2 I_2 = 0 \\
+> -2 I_1 + 3 I_2 + 2 (-I_1) + 3 I_3 = 0 \\
+> I_3 - I_2 = 2
+> \end{cases}
+> $$
 > 得
->
-> <img src="./methods.assets/image-20241027194256418.png" alt="image-20241027194256418" style="zoom:50%;" />
+> $$
+> \begin{cases}
+> I_1 = 2.1818 \\
+> I_2 = 0.4545 \\
+> I_3 = 2.4545
+> \end{cases}
+> $$
+> $I = I_3 = 2.45\,\rm{mA}$
+
+
 
 ## 知识点2：节点电压法
 
-1、用节点电压法求下图所示电路中的电压*U* 。
+**`CH03-KP2-01`**: 用节点电压法求下图所示电路中的电压 *U* 。
 
-<img src="./methods.assets/2-5-1.png" alt="2-5-1" style="zoom:60%;" />
+<img src="./methods.assets/2-5-1.png" alt="2-5-1" style="zoom:70%;" />
 
-> 解：
+| 参考答案  | 32 V                                                         |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-01.asc`<br /><img src="./methods.assets/image-20250301170721408.png" alt="image-20250301170721408" style="zoom:50%;" /> |
+
+解析：
+
+> 标记结点 ④ 为最下方结点
 >
-> <img src="./methods.assets/解-2-5-1.png" alt="2-5-10" style="zoom:60%;" />
+> <img src="./methods.assets/解-2-5-1.png" alt="2-5-10" style="zoom:80%;" />
 
 
 
-2、用节点电压法求解下图中的电流 $I_0$ 及电压 $V_1,V_2,V_3$ 。
+**`CH03-KP2-02`**: 用节点电压法求解下图中的电流 $I_0$ 及电压 $V_1,V_2,V_3$ 。
 
-<img src="./methods.assets/2-5-2.png" alt="2-5-2" style="zoom: 67%;" />
+<img src="./methods.assets/2-5-2.png" alt="2-5-2" style="zoom: 70%;" />
 
-> 解：
->
+| 参考答案  | $I_o = 0.36\,\rm{A}$; $V_1 = 10\, \rm{V}$; $V_2 = 10\,\rm{V}$; $V_3 = 8.57\,\rm{V}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-02.asc`<br /><img src="./methods.assets/image-20250301172718894.png" alt="image-20250301172718894" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_02.m`              |
+
+解析：
+
 > 列节点电压方程如下：
-> $$
+>$$
 > \begin{cases}
-> V_1=10 V \\
+> V_1=10 \\
 > (V_2-V_1)/5+(V_2-V3)/2-2I_0=0 \\
 > -I_0+(V_3-V_2)/2+V_3/8=0
 > \end{cases}
 > $$
 > 增补方程 $I_0=(V_1-V_3)/4$ 
->
-> 解得： $V_1=10 V,V_2=10 V_3=\frac{60}{7} V,I_0=\frac{5}{14} A$ 
+> 
+> 解得： $V_1=10\,\rm{V}, V_2=10\,\rm{V}, V_3=\dfrac{60}{7}\,\rm{V}, I_0=\dfrac{5}{14}\,\rm{A}$ 
 >
 > <img src="./methods.assets/image-20220830144126771.png" alt="image-20220830144126771" style="zoom:50%;" />
 
