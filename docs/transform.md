@@ -727,7 +727,7 @@ D. 180 Ω、180 Ω、20 Ω
 
 | 参考答案   | $v_C = 15\,\rm{V}$; $i_L = 7.5\,\rm{A}$; $E_C = 450\,\rm{J}$ |
 | ---------- | ------------------------------------------------------------ |
-| SPCICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP5-02.asc`<br /><img src="./transform.assets/image-20250227165054012.png" alt="image-20250227165054012" style="zoom:50%;" /> |
+| SPCICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP5-02.asc`<br /><img src="./transform.assets/image-20250301104654919.png" alt="image-20250301104654919" style="zoom:50%;" /><br />注意：LTspice 里的电感默认有 1 mΩ 的串联电阻，需要设置串联电阻值为 0，以覆盖默认值；Windows 版本的 LTspice 可以在电路图上标注元件电流，Mac 版本需要通过 log 查看。 |
 
 解析：
 
