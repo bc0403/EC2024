@@ -704,38 +704,48 @@
 
 
 
-10、用节点电压法求下图所示电路中电流源两端的电压 *v* 。
+**`CH03-KP2-10`**: 用节点电压法求下图所示电路中电流源两端的电压 *v* 。
 
 <img src="./methods.assets/2-5-10.png" alt="2-5-10" style="zoom:60%;" />
 
-> 解：
->
->   以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
+| 参考答案  | 19.6 V                                                       |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-10.asc`<br /><img src="./methods.assets/image-20250304143634930.png" alt="image-20250304143634930" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_10.m`              |
+
+解析：
+
+> 以底端节点作为参考节点，上端三个节点的节点电压分别为 $v_{n1}$ 、 $v_{n2}$ 和 $v_{n3}$ 。
 >
 >   因为与第一个节点相连接的 3 Ω 为多余电阻，则有：
-> $$
+>$$
 >   \begin{cases}
->   (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
+> (\frac{1}{2}+\frac{1}{2})v_{n1}-\frac{1}{2}v_{n2}-\frac{1}{2}v_{n3}=2 \\
 >   v_{n2}=8 \\
 >   -\frac{1}{2}v_{n1}-\frac{1}{2}v_{n2}+(\frac{1}{2}+\frac{1}{2}+\frac{1}{1})v_{n3}=v
 >   \end{cases}
-> $$
+>   $$
 >   因受控源引入的附加方程为：
 > $$
 >   v_{n1}=v-2×3
 > $$
 >   解得：$\begin{cases} v_{n1}=13.6V \\ v_{n2}=8V \\ v_{n3}=15.2V \end{cases}$ 	得：$v=19.6V$ 
->
+> 
 >   <img src="./methods.assets/image-20220830153706672.png" alt="image-20220830153706672" style="zoom:50%;" />
 
 
 
-11、列出图示电路的节点电压方程,并求 $I$。
+**`CH03-KP2-11`**: 列出图示电路的节点电压方程，并求 $I$。
 
 <img src="./methods.assets/2-4-9-3060673.png" alt="2-4-9" style="zoom: 50%;" />
 
-> 解：
->
+| 参考答案  | 0.49 A                                                       |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-11.asc`<br /><img src="./methods.assets/image-20250304144625186.png" alt="image-20250304144625186" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_11.m`              |
+
+解析：
+
 > 考虑到独立电压源的存在，将独立电压源及上方节点看做一个 $supernode$ 。记 $supernode$ 上、下方电压分别为 $v_a$ 和 $v_b$ 。
 >
 > 以底端节点为参考节点，$supernode$ 右侧的两个节点分别标记为 $v_1$ 和 $v_2$ 。
@@ -752,19 +762,33 @@
 
 
 
-12、用节点电压法，求节点1、2、3的电压值
+**`CH03-KP2-12`**: 用节点电压法，求节点1、2、3的电压值
 
 <img src="./methods.assets/image-20221014140730215.png" alt="image-20221014140730215" style="zoom:50%;" />
+
+| 参考答案  | $v_1 = 32\,\rm{V}$; $v_2 = -25.6\,\rm{V}$; $v_3 = 62.4\,\rm{V}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-12.asc`<br /><img src="./methods.assets/image-20250304145348135.png" alt="image-20250304145348135" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_12.m`              |
+
+解析：
 
 > <img src="./methods.assets/image-20221014140838041.png" alt="image-20221014140838041" style="zoom:50%;" />
 
 
 
-13、用节点电压法，求下图中的 $V_x$
+**`CH03-KP2-13`**: 用节点电压法，求下图中的 $V_x$
 
 <img src="./methods.assets/image-20221016165056251.png" alt="image-20221016165056251" style="zoom:40%;" />
 
-> 列方程如下：
+| 参考答案  | 30 V                                                         |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-13.asc`<br /><img src="./methods.assets/image-20250304151252310.png" alt="image-20250304151252310" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_13.m`              |
+
+解析：
+
+> 10 V 电压源构成 supernode， 中间三个节点分别记为 1、2、3， 列方程如下：
 >
 > $\frac{v_1-20}{20} + \frac{v_1-0}{20} + \frac{v_2-0}{10} + \frac{v_2-v_3}{5} = 0$
 >
@@ -776,20 +800,31 @@
 
 
 
-14、用节点电压法，求下图中的 $V_o$
+**`CH03-KP2-14`**: 用节点电压法，求下图中的 $V_o$
 
 <img src="./methods.assets/image-20221016165836817.png" alt="image-20221016165836817" style="zoom:50%;" />
+
+| 参考答案  | 1.11 V                                                       |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-14.asc`<br /><img src="./methods.assets/image-20250304151710142.png" alt="image-20250304151710142" style="zoom:50%;" /> |
+
+解析：
 
 > <img src="./methods.assets/image-20221016165901505.png" alt="image-20221016165901505" style="zoom:50%;" />
 
 
 
-15、求下图所示电路的节点电压 $v_1$，$v_2$，$v_3$。
+**`CH03-KP2-15`**: 求下图所示电路的节点电压 $v_1$，$v_2$，$v_3$。
 
 <img src="./methods.assets/image-20221108121920847.png" alt="image-20221108121920847" style="zoom:50%;" />
 
-> 解：
->
+| 参考答案  | $v_1 = 156\,\rm{V}$; $v_2 = 120\,\rm{V}$; $v_3 = 78\,\rm{V}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-15.asc`<br /><img src="./methods.assets/image-20250304153207288.png" alt="image-20250304153207288" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_15.m`              |
+
+解析：
+
 > $i_o=\frac{v_2}{40}$ 
 >
 > $-5i_o + \frac{v_1}{20} +\frac{v_1-v_2}{5}=0$ 		 		so	$10v_1-13v_2+0v_3=0$ 
@@ -802,11 +837,28 @@
 
 
 
-16、用节点电压法求下图所示电路的节点1、2、3和4的电压 $V_{n1}$、$V_{n2}$、$V_{n3}$ 和 $V_{n4}$。
+**`CH03-KP2-16`**: 用节点电压法求下图所示电路的节点1、2、3和4的电压 $V_{n1}$、$V_{n2}$、$V_{n3}$ 和 $V_{n4}$。
 
 <img src="./methods.assets/image-20241027194800283.png" alt="image-20241027194800283" style="zoom:70%;" />
 
-><img src="./methods.assets/image-20241027194836551.png" alt="image-20241027194836551" style="zoom:50%;" />
+| 参考答案  | $V_{n1} = 0\,\rm{V}$; $V_{n2} = 126\,\rm{V}$; $V_{n3} = 135\,\rm{V}$; $V_{n4} = 108\,\rm{V}$ |
+| --------- | ------------------------------------------------------------ |
+| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-16.asc`<br /><img src="./methods.assets/image-20250304154122908.png" alt="image-20250304154122908" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_16.m`              |
+
+解析：
+
+>受控电压源构成 supernode，列方程：
+>$$
+>\begin{cases}
+>\dfrac{V_{n2}}{90} + \dfrac{V_{n2}-V_{n4}}{60} + \dfrac{V_{n3}-V_{n4}}{90} - 2 = 0 \\
+>\dfrac{V_{n4}}{180} + \dfrac{V_{n4}-V_{n2}}{60} + \dfrac{V_{n4}-V_{n3}}{90} = 0 \\
+>V_{n3} - V_{n2} = 30\dfrac{V_{n3}-V_{n4}}{90}
+>\end{cases}
+>$$
+>解得：$V_{n1} = 0\,\rm{V}$; $V_{n2} = 126\,\rm{V}$; $V_{n3} = 135\,\rm{V}$; $V_{n4} = 108\,\rm{V}$
+
+
 
 ## 知识点3：叠加定理
 
