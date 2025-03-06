@@ -322,8 +322,8 @@ D. $-6\rm{A}$​
 
 | 参考答案  | $v_1 = 6\,\rm{V}$; $v_2 = 4\,\rm{V}$; $v_3=10\,\rm{V}$; $i_1 = 3\,\rm{A}$; $i_2 = 0.5\,\rm{A}$; $i_3 = 2.5\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP2-06.kicad_sch`<br /><img src="./transform.assets/image-20250225201752379.png" alt="image-20250225201752379" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `math/ch2/CH02_KP2_06.m`               |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP2-06.kicad_sch`<br /><img src="./transform.assets/image-20250225201752379.png" alt="image-20250225201752379" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch02/CH02_KP2_06.m`              |
 
 解析：
 
@@ -337,7 +337,7 @@ D. $-6\rm{A}$​
 
 | 参考答案  | $I = 4\,\rm{A}$; $V_{ab} = 28\,\rm{V}$                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP2-07.kicad_sch`<br /><img src="./transform.assets/image-20250225203055364.png" alt="image-20250225203055364" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP2-07.kicad_sch`<br /><img src="./transform.assets/image-20250225203055364.png" alt="image-20250225203055364" style="zoom:50%;" /> |
 
 解析：
 
@@ -379,7 +379,7 @@ D. $-6\rm{A}$​
 
 | 参考答案  | 3.2 V                                                        |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-02.kicad_sch`<br /><img src="./transform.assets/image-20250226145202465.png" alt="image-20250226145202465" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-02.kicad_sch`<br /><img src="./transform.assets/image-20250226145202465.png" alt="image-20250226145202465" style="zoom:50%;" /> |
 
 解析：
 
@@ -387,7 +387,7 @@ D. $-6\rm{A}$​
 
 
 
-**`CH2-KP3-03`**: 下图所示电路中，电压 U 为 ________ 。
+**`CH02-KP3-03`**: 下图所示电路中，电压 U 为 ________ 。
 
 <img src="./methods.assets/2-2-3.png" alt="2-2-3" style="zoom:60%;" />
 
@@ -401,7 +401,7 @@ D. 3V
 
 | 参考答案  | C                                                            |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-03.kicad_sch`<br /><img src="./transform.assets/image-20250226145925583.png" alt="image-20250226145925583" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-03.kicad_sch`<br /><img src="./transform.assets/image-20250226145925583.png" alt="image-20250226145925583" style="zoom:50%;" /> |
 
 解析：
 
@@ -417,7 +417,7 @@ D. 3V
 
 | 参考答案  | 2 V                                                          |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-04.kicad_sch`<br /><img src="./transform.assets/image-20250227150828909.png" alt="image-20250227150828909" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-04.kicad_sch`<br /><img src="./transform.assets/image-20250227150828909.png" alt="image-20250227150828909" style="zoom:40%;" /> |
 
 解析：
 
@@ -448,8 +448,8 @@ D. 3V
 
 | 参考答案  | $I_1 = 2\,\rm{A}$; $I_2 = 4\,\rm{A}$; 18 V 电源计算功率 $-210\,\rm{W}$, 为发出功率；20 V 电源计算功率 $-40\,\rm{W}$，为发出功率；2 A 电源计算功率 $-52\,\rm{W}$，为发出功率 。 |
 | :-------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-06.kicad_sch`<br /><img src="./transform.assets/image-20250226193629811.png" alt="image-20250226193629811" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `math/ch2/CH02_KP3_06.m`               |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-06.kicad_sch`<br /><img src="./transform.assets/image-20250226193629811.png" alt="image-20250226193629811" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch02/CH02_KP3_06.m`              |
 
 解析：
 
@@ -514,7 +514,7 @@ D. 3V
 
 | 参考答案  | 5 A                                                          |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-07.kicad_sch`<br /><img src="./transform.assets/image-20250226194328295.png" alt="image-20250226194328295" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-07.kicad_sch`<br /><img src="./transform.assets/image-20250226194328295.png" alt="image-20250226194328295" style="zoom:40%;" /> |
 
 解析：
 
@@ -532,7 +532,7 @@ D. 3V
 
 | 参考答案  | 3 A                                                          |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-08.kicad_sch`<br /><img src="./transform.assets/image-20250226195239701.png" alt="image-20250226195239701" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-08.kicad_sch`<br /><img src="./transform.assets/image-20250226195239701.png" alt="image-20250226195239701" style="zoom:40%;" /> |
 
 解析：
 
@@ -559,7 +559,7 @@ D. 3V
 
 | 参考答案  | $\dfrac{10}{9}\,\rm{A}$                                      |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-10.kicad_sch`<br /><img src="./transform.assets/image-20250226200010443.png" alt="image-20250226200010443" style="zoom:30%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-10.kicad_sch`<br /><img src="./transform.assets/image-20250226200010443.png" alt="image-20250226200010443" style="zoom:30%;" /> |
 
 解析：
 
@@ -573,7 +573,7 @@ D. 3V
 
 | 参考答案  | 48 V                                                         |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP3-11.kicad_sch`<br /><img src="./transform.assets/image-20250227152822949.png" alt="image-20250227152822949" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP3-11.kicad_sch`<br /><img src="./transform.assets/image-20250227152822949.png" alt="image-20250227152822949" style="zoom:40%;" /> |
 
 解析：
 
@@ -658,8 +658,8 @@ D. 360 Ω、360 Ω、40 Ω
 
 | 参考答案  | $I_1 = -7\,\rm{A}$; $I_2 = 56\,\rm{A}$; $I_3 = 49\,\rm{A}$   |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP4-03.kicad_sch`<br /><img src="./transform.assets/image-20250227154337549.png" alt="image-20250227154337549" style="zoom:40%;" /> |
-| Math      | 数学计算文件见 Github `math/ch2/CH02_KP4_03.m`               |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP4-03.kicad_sch`<br /><img src="./transform.assets/image-20250227154337549.png" alt="image-20250227154337549" style="zoom:40%;" /> |
+| Math      | 数学计算文件见 Github `math/ch02/CH02_KP4_03.m`              |
 
 解析：
 
@@ -680,7 +680,7 @@ D. 360 Ω、360 Ω、40 Ω
 
 | 参考答案  | $R_{ab} = 60\,\Omega$; $i = 4\,\rm{A}$                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP4-04.kicad_sch`<br /><img src="./transform.assets/image-20250227155458937.png" alt="image-20250227155458937" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP4-04.kicad_sch`<br /><img src="./transform.assets/image-20250227155458937.png" alt="image-20250227155458937" style="zoom:40%;" /> |
 
 解析：
 
@@ -713,7 +713,7 @@ D. 180 Ω、180 Ω、20 Ω
 
 | 参考答案  | $v_1 = 75\,\rm{V}$; $v_2 = 75\,\rm{V}$; $v_3 = 25\,\rm{V}$; $v_4 = 50\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP5-01.kicad_sch`<br /><img src="./transform.assets/image-20250227160123806.png" alt="image-20250227160123806" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP5-01.kicad_sch`<br /><img src="./transform.assets/image-20250227160123806.png" alt="image-20250227160123806" style="zoom:40%;" /> |
 
 解析：
 
@@ -727,7 +727,7 @@ D. 180 Ω、180 Ω、20 Ω
 
 | 参考答案   | $v_C = 15\,\rm{V}$; $i_L = 7.5\,\rm{A}$; $E_C = 450\,\rm{J}$ |
 | ---------- | ------------------------------------------------------------ |
-| SPCICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP5-02.asc`<br /><img src="./transform.assets/image-20250301104654919.png" alt="image-20250301104654919" style="zoom:50%;" /><br />注意：LTspice 里的电感默认有 1 mΩ 的串联电阻，需要设置串联电阻值为 0，以覆盖默认值；Windows 版本的 LTspice 可以在电路图上标注元件电流，Mac 版本需要通过 log 查看。 |
+| SPCICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP5-02.asc`<br /><img src="./transform.assets/image-20250301104654919.png" alt="image-20250301104654919" style="zoom:50%;" /><br />注意：LTspice 里的电感默认有 1 mΩ 的串联电阻，需要设置串联电阻值为 0，以覆盖默认值；Windows 版本的 LTspice 可以在电路图上标注元件电流，Mac 版本需要通过 log 查看。 |
 
 解析：
 
@@ -743,7 +743,7 @@ D. 180 Ω、180 Ω、20 Ω
 
 | 参考答案  | 111 mA                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch2/CH02-KP6-01.kicad_sch`<br /><img src="./transform.assets/image-20250227170341890.png" alt="image-20250227170341890" style="zoom:40%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch02/CH02-KP6-01.kicad_sch`<br /><img src="./transform.assets/image-20250227170341890.png" alt="image-20250227170341890" style="zoom:40%;" /> |
 
 解析：
 
