@@ -61,8 +61,8 @@
 
 | 参考答案  | $I_1 = 1.84\,\rm{A}$; $I_2 = 0.68\,\rm{A}$; $I_3 = 2.68\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-01.kicad_sch`<br /><img src="./methods.assets/image-20250228093847585.png" alt="image-20250228093847585" style="zoom:40%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_01.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-01.kicad_sch`<br /><img src="./methods.assets/image-20250228093847585.png" alt="image-20250228093847585" style="zoom:40%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_01.m`              |
 
 解析：
 
@@ -98,8 +98,8 @@
 
 | 参考答案  | 1.42 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-03.kicad_sch`<br /><img src="./methods.assets/image-20250228095353448.png" alt="image-20250228095353448" style="zoom:30%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_03.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-03.kicad_sch`<br /><img src="./methods.assets/image-20250228095353448.png" alt="image-20250228095353448" style="zoom:30%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_03.m`              |
 
 解析：
 
@@ -139,8 +139,8 @@
 
 | 参考答案  | 1.19 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-04.kicad_sch`<br /><img src="./methods.assets/image-20250228100635033.png" alt="image-20250228100635033" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_04.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-04.kicad_sch`<br /><img src="./methods.assets/image-20250228100635033.png" alt="image-20250228100635033" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_04.m`              |
 
 解析：
 
@@ -170,8 +170,8 @@
 
 | 参考答案  | $I_1 = 5\,\rm{A}$; $V_o = -42\,\rm{V}$                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-05.asc`<br /><img src="./methods.assets/image-20250301120809337.png" alt="image-20250301120809337" style="zoom:50%;" /><br />注：KiCAD 9.0 及之前的版本没有集成电流控制的受控源；电压源 V_1 的电压值设为 0 V，该电压源是用来获得控制电流的，具体见 LTspice 的帮助文件。 |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_05.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-05.asc`<br /><img src="./methods.assets/image-20250301120809337.png" alt="image-20250301120809337" style="zoom:50%;" /><br />注：KiCAD 9.0 及之前的版本没有集成电流控制的受控源；电压源 V_1 的电压值设为 0 V，该电压源是用来获得控制电流的，具体见 LTspice 的帮助文件。 |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_05.m`              |
 
 解析：
 
@@ -209,8 +209,8 @@
 
 | 参考答案  | 4.5 V                                                        |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-06.asc`<br /><img src="./methods.assets/image-20250301123517279.png" alt="image-20250301123517279" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_06.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-06.asc`<br /><img src="./methods.assets/image-20250301123517279.png" alt="image-20250301123517279" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_06.m`              |
 
 解析：
 
@@ -242,8 +242,8 @@
 
 | 参考答案  | $i_1 = 4.63\,\rm{A}$; $i_2 = 0.63\,\rm{A}$; $i_3 = 1.47\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-07.asc`<br /><img src="./methods.assets/image-20250301124956881.png" alt="image-20250301124956881" style="zoom:60%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_07.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-07.asc`<br /><img src="./methods.assets/image-20250301124956881.png" alt="image-20250301124956881" style="zoom:60%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_07.m`              |
 
 解析：
 
@@ -269,8 +269,8 @@
 
 | 参考答案  | 0.49 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-08.asc`<br /><img src="./methods.assets/image-20250301125958479.png" alt="image-20250301125958479" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_08.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-08.asc`<br /><img src="./methods.assets/image-20250301125958479.png" alt="image-20250301125958479" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_08.m`              |
 
 解析：
 
@@ -294,8 +294,8 @@
 
 | 参考答案  | $-4\,\rm{A}$                                                 |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-09.asc`<br /><img src="./methods.assets/image-20250301154947687.png" alt="image-20250301154947687" style="zoom:40%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_09.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-09.asc`<br /><img src="./methods.assets/image-20250301154947687.png" alt="image-20250301154947687" style="zoom:40%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_09.m`              |
 
 解析：
 
@@ -309,8 +309,8 @@
 
 | 参考答案  | $i_1 = 4.8\,\rm{A}$; $i_2 = 0.8\,\rm{A}$; $i_3 = 1.6\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-10.asc`<br /><img src="./methods.assets/image-20250301155808436.png" alt="image-20250301155808436" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_10.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-10.asc`<br /><img src="./methods.assets/image-20250301155808436.png" alt="image-20250301155808436" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_10.m`              |
 
 解析：
 
@@ -324,8 +324,8 @@
 
 | 参考答案  | $-1.73\,\rm{A}$                                              |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-11.asc`<br /><img src="./methods.assets/image-20250301160737374.png" alt="image-20250301160737374" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_11.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-11.asc`<br /><img src="./methods.assets/image-20250301160737374.png" alt="image-20250301160737374" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_11.m`              |
 
 解析：
 
@@ -339,8 +339,8 @@
 
 | 参考答案  | $i_a = 5.7\,\rm{A}$; $i_b = 4.6\,\rm{A}$; $i_c = 0.97\,\rm{A}$; $i_d = -1.1\,\rm{A}$; $i_e = 3.63\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP1-12.asc`<br /><img src="./methods.assets/image-20250301163028251.png" alt="image-20250301163028251" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_12.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP1-12.asc`<br /><img src="./methods.assets/image-20250301163028251.png" alt="image-20250301163028251" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_12.m`              |
 
 解析：
 
@@ -367,8 +367,8 @@
 
 | 参考答案  | 2.45 mA                                                      |
 | --------- | ------------------------------------------------------------ |
-| SPICE模型 | 仿真文件见 Github `kicad/ch3/CH03-KP1-13.asc`<br /><img src="./methods.assets/image-20250301165427770.png" alt="image-20250301165427770" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP1_13.m`              |
+| SPICE模型 | 仿真文件见 Github `spice/ch03/CH03-KP1-13.asc`<br /><img src="./methods.assets/image-20250301165427770.png" alt="image-20250301165427770" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP1_13.m`              |
 
 解析：
 
@@ -407,7 +407,7 @@
 
 | 参考答案  | 32 V                                                         |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-01.asc`<br /><img src="./methods.assets/image-20250301170721408.png" alt="image-20250301170721408" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-01.asc`<br /><img src="./methods.assets/image-20250301170721408.png" alt="image-20250301170721408" style="zoom:50%;" /> |
 
 解析：
 
@@ -423,8 +423,8 @@
 
 | 参考答案  | $I_o = 0.36\,\rm{A}$; $V_1 = 10\, \rm{V}$; $V_2 = 10\,\rm{V}$; $V_3 = 8.57\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-02.asc`<br /><img src="./methods.assets/image-20250301172718894.png" alt="image-20250301172718894" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_02.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-02.asc`<br /><img src="./methods.assets/image-20250301172718894.png" alt="image-20250301172718894" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_02.m`              |
 
 解析：
 
@@ -450,8 +450,8 @@
 
 | 参考答案  | 1.5 Ω                                                        |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-03.asc`<br /><img src="./methods.assets/image-20250304094442230.png" alt="image-20250304094442230" style="zoom:60%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_03.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-03.asc`<br /><img src="./methods.assets/image-20250304094442230.png" alt="image-20250304094442230" style="zoom:60%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_03.m`              |
 
 解析：
 
@@ -489,8 +489,8 @@
 
 | 参考答案  | $v_1 = 7.61\,\rm{V}$; $v_2 = -17.39\,\rm{V}$; $v_3 = 1.63\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-04.asc`<br /><img src="./methods.assets/image-20250304095936947.png" alt="image-20250304095936947" style="zoom:60%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_04.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-04.asc`<br /><img src="./methods.assets/image-20250304095936947.png" alt="image-20250304095936947" style="zoom:60%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_04.m`              |
 
 解析：
 
@@ -559,8 +559,8 @@
 
 | 参考答案  | $V_{na} = 135\,\rm{V}$; $V_{nb} = 108\,\rm{V}$; $V_{nc} = 126\,\rm{V}$; $i_x = 0.3\,\rm{A}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-07.asc`<br /><img src="./methods.assets/image-20250304102226947.png" alt="image-20250304102226947" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_07.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-07.asc`<br /><img src="./methods.assets/image-20250304102226947.png" alt="image-20250304102226947" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_07.m`              |
 
 解析：
 
@@ -650,8 +650,8 @@
 
 | 参考答案  | 0.079 A                                                      |
 | --------- | ------------------------------------------------------------ |
-| SPICE模型 | 仿真文件见 Github `kicad/ch3/CH03-KP2-08.asc`<br /><img src="./methods.assets/image-20250304103713505.png" alt="image-20250304103713505" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_08.m`              |
+| SPICE模型 | 仿真文件见 Github `spice/ch03/CH03-KP2-08.asc`<br /><img src="./methods.assets/image-20250304103713505.png" alt="image-20250304103713505" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_08.m`              |
 
 解析：
 
@@ -674,8 +674,8 @@
 
 | 参考答案  | 令下方节点为参考地，则上方四个节点从左到右电压分别为 16.3 V、$-7.69\,\rm{V}$、 1.23 V、0.31 V |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-09.asc`<br /><img src="./methods.assets/image-20250304131004348.png" alt="image-20250304131004348" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_09.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-09.asc`<br /><img src="./methods.assets/image-20250304131004348.png" alt="image-20250304131004348" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_09.m`              |
 
 解析：
 
@@ -710,8 +710,8 @@
 
 | 参考答案  | 19.6 V                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-10.asc`<br /><img src="./methods.assets/image-20250304143634930.png" alt="image-20250304143634930" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_10.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-10.asc`<br /><img src="./methods.assets/image-20250304143634930.png" alt="image-20250304143634930" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_10.m`              |
 
 解析：
 
@@ -741,8 +741,8 @@
 
 | 参考答案  | 0.49 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-11.asc`<br /><img src="./methods.assets/image-20250304144625186.png" alt="image-20250304144625186" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_11.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-11.asc`<br /><img src="./methods.assets/image-20250304144625186.png" alt="image-20250304144625186" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_11.m`              |
 
 解析：
 
@@ -768,8 +768,8 @@
 
 | 参考答案  | $v_1 = 32\,\rm{V}$; $v_2 = -25.6\,\rm{V}$; $v_3 = 62.4\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-12.asc`<br /><img src="./methods.assets/image-20250304145348135.png" alt="image-20250304145348135" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_12.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-12.asc`<br /><img src="./methods.assets/image-20250304145348135.png" alt="image-20250304145348135" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_12.m`              |
 
 解析：
 
@@ -783,8 +783,8 @@
 
 | 参考答案  | 30 V                                                         |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-13.asc`<br /><img src="./methods.assets/image-20250304151252310.png" alt="image-20250304151252310" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_13.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-13.asc`<br /><img src="./methods.assets/image-20250304151252310.png" alt="image-20250304151252310" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_13.m`              |
 
 解析：
 
@@ -806,7 +806,7 @@
 
 | 参考答案  | 1.11 V                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-14.asc`<br /><img src="./methods.assets/image-20250304151710142.png" alt="image-20250304151710142" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-14.asc`<br /><img src="./methods.assets/image-20250304151710142.png" alt="image-20250304151710142" style="zoom:50%;" /> |
 
 解析：
 
@@ -820,8 +820,8 @@
 
 | 参考答案  | $v_1 = 156\,\rm{V}$; $v_2 = 120\,\rm{V}$; $v_3 = 78\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-15.asc`<br /><img src="./methods.assets/image-20250304153207288.png" alt="image-20250304153207288" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_15.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-15.asc`<br /><img src="./methods.assets/image-20250304153207288.png" alt="image-20250304153207288" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_15.m`              |
 
 解析：
 
@@ -843,8 +843,8 @@
 
 | 参考答案  | $V_{n1} = 0\,\rm{V}$; $V_{n2} = 126\,\rm{V}$; $V_{n3} = 135\,\rm{V}$; $V_{n4} = 108\,\rm{V}$ |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP2-16.asc`<br /><img src="./methods.assets/image-20250304154122908.png" alt="image-20250304154122908" style="zoom:50%;" /> |
-| Math      | 数学计算文件见 Github `kicad/ch3/CH03_KP2_16.m`              |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP2-16.asc`<br /><img src="./methods.assets/image-20250304154122908.png" alt="image-20250304154122908" style="zoom:50%;" /> |
+| Math      | 数学计算文件见 Github `math/ch03/CH03_KP2_16.m`              |
 
 解析：
 
@@ -893,7 +893,7 @@ D. 3V
 
 | 参考答案  | C                                                            |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-02.asc`<br /><img src="./methods.assets/image-20250304181620787.png" alt="image-20250304181620787" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-02.asc`<br /><img src="./methods.assets/image-20250304181620787.png" alt="image-20250304181620787" style="zoom:50%;" /> |
 
 解析：
 
@@ -937,7 +937,7 @@ D. 无受控源的电路
 
 | 参考答案  | $\dfrac{3}{8}\,\rm{A}$                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-05.asc`<br /><img src="./methods.assets/image-20250304182411419.png" alt="image-20250304182411419" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-05.asc`<br /><img src="./methods.assets/image-20250304182411419.png" alt="image-20250304182411419" style="zoom:50%;" /> |
 
 解析：
 
@@ -963,7 +963,7 @@ D. 无受控源的电路
 
 | 参考答案  | 8.4 V                                                        |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-06.asc`<br /><img src="./methods.assets/image-20250304182832384.png" alt="image-20250304182832384" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-06.asc`<br /><img src="./methods.assets/image-20250304182832384.png" alt="image-20250304182832384" style="zoom:50%;" /> |
 
 解析：
 
@@ -987,7 +987,7 @@ D. 无受控源的电路
 
 | 参考答案  | 8 V                                                          |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-07.asc`<br /><img src="./methods.assets/image-20250304183228026.png" alt="image-20250304183228026" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-07.asc`<br /><img src="./methods.assets/image-20250304183228026.png" alt="image-20250304183228026" style="zoom:50%;" /> |
 
 解析：
 
@@ -1003,7 +1003,7 @@ D. 无受控源的电路
 
 | 参考答案  | 1.78 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-08.asc`<br /><img src="./methods.assets/image-20250304183713475.png" alt="image-20250304183713475" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-08.asc`<br /><img src="./methods.assets/image-20250304183713475.png" alt="image-20250304183713475" style="zoom:50%;" /> |
 
 解析：
 
@@ -1019,7 +1019,7 @@ D. 无受控源的电路
 
 | 参考答案  | (1) 3 V； (2) 电压源提供功率 100 W，受控源消耗功率 72 W      |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP3-09.asc`<br /><img src="./methods.assets/image-20250304184930366.png" alt="image-20250304184930366" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP3-09.asc`<br /><img src="./methods.assets/image-20250304184930366.png" alt="image-20250304184930366" style="zoom:50%;" /> |
 
 解析：
 
@@ -1057,7 +1057,7 @@ D. 无受控源的电路
 
 | 参考答案  | 2.5 V                                                        |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP4-01.asc`<br /><img src="./methods.assets/image-20250304194937881.png" alt="image-20250304194937881" style="zoom:60%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP4-01.asc`<br /><img src="./methods.assets/image-20250304194937881.png" alt="image-20250304194937881" style="zoom:60%;" /> |
 
 解析：
 
@@ -1175,7 +1175,7 @@ D. <img src="./methods.assets/2-7-2-D.png" alt="2-7-2-D" style="zoom:33%;" />
 
 | 参考答案  | 0.25 A                                                       |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP4-05.asc`<br /><img src="./methods.assets/image-20250304210307920.png" alt="image-20250304210307920" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP4-05.asc`<br /><img src="./methods.assets/image-20250304210307920.png" alt="image-20250304210307920" style="zoom:50%;" /> |
 
 解析：
 
@@ -1375,7 +1375,7 @@ B. 不一定
 
 | 参考答案  | 6 Ω                                                          |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP6-02.asc`<br /><img src="./methods.assets/image-20250304223436696.png" alt="image-20250304223436696" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP6-02.asc`<br /><img src="./methods.assets/image-20250304223436696.png" alt="image-20250304223436696" style="zoom:50%;" /> |
 
 解析：
 
@@ -1462,7 +1462,7 @@ D. 不能确定
 
 | 参考答案  | 9 Ω; 0 Ω                                                     |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH03-KP6-06.asc`<br /><img src="./methods.assets/image-20250304232148109.png" alt="image-20250304232148109" style="zoom:50%;" /> |
+| SPICE仿真 | 仿真文件见 Github `spice/ch03/CH03-KP6-06.asc`<br /><img src="./methods.assets/image-20250304232148109.png" alt="image-20250304232148109" style="zoom:50%;" /> |
 
 解析：
 

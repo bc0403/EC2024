@@ -130,7 +130,7 @@
 
 | 参考答案  |                                                              |
 | --------- | ------------------------------------------------------------ |
-| SPICE仿真 | 仿真文件见 Github `kicad/ch3/CH04-KP1-01.asc`<br /><img src="./transition.assets/image-20250305230437924.png" alt="image-20250305230437924" style="zoom:50%;" /><br /><img src="./transition.assets/image-20250305203233392.png" alt="image-20250305203233392" style="zoom:50%;" /><br />注：`I(B_check)` 是理论分析的解析表达式，`I(L1)` 是电路仿真结果，两条曲线重合，表示理论分析与电路仿真吻合。 |
+| SPICE仿真 | 仿真文件见 Github `spice/ch04/CH04-KP1-01.asc`<br /><img src="./transition.assets/image-20250305230437924.png" alt="image-20250305230437924" style="zoom:50%;" /><br /><img src="./transition.assets/image-20250305203233392.png" alt="image-20250305203233392" style="zoom:50%;" /><br />注：`I(B_check)` 是理论分析的解析表达式，`I(L1)` 是电路仿真结果，两条曲线重合，表示理论分析与电路仿真吻合。 |
 
 解析：
 
