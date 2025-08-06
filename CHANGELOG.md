@@ -21,5 +21,4 @@ upgrade node.js and vitepress to v16.17.0 and v1.0.0-alpha.12
 add latex support
 
 ## 0.1.0
-
 Initialiation and framework build
