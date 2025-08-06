@@ -1,3 +1,6 @@
+## 1.2.0
+* update vitepress to v1.3.6, which is the final release of 1.x
+
 ## 1.1.0
 * add `custom.css` in `./docs/.vitepress/theme/styles` for fix the first column of table
 
