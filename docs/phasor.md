@@ -26,7 +26,7 @@
 
 ::: tip
 
-1. 三角函数图示记忆方法(shulian)
+1. 三角函数图示记忆方法
 
 <img src="./phasor.assets/image-20220905125538104.png" alt="image-20220905125538104" style="zoom:30%;" />
 
