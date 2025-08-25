@@ -150,7 +150,11 @@ D. −270°
 
 > <img src="./freq.assets/11-2-9.png" alt="11-2-9" style="zoom: 67%;" />
 
+**`CH10-KP1-09`**: 某放大电路的电压增益为 $A_v = \dfrac{jf\times10^4}{(10\;\textrm{Hz} + jf)(1+\dfrac{jf}{10^5\;\textrm{Hz}})(1+\dfrac{jf}{10^6\;\textrm{Hz}})}$ ，画出其幅度和相位波特图。
 
+>整理成 $\dfrac{K}{1+\dfrac{jf}{f_0}}$ 和$\dfrac{K}{1+\dfrac{f_0}{jf}}$的标准形式，可发现低频极点为 10 Hz，高频极点为 $10^5\;\textrm{Hz}$ 和 $10^6\;\textrm{Hz}$。故：
+>
+><img src="./freq.assets/image-20250825093450992.png" alt="image-20250825093450992" style="zoom:50%;" />
 
 ## 知识点2：滤波器及其频率响应
 
@@ -389,7 +393,25 @@ D. 引入一个高频极点
 >
 >    ​	  ${f_{{C_E}}} = \frac{1}{{2\pi {C_E}{R_{{C_E}}}}} = \frac{1}{{2\pi  \times 10 \times {{10}^{ - 6}} \times 58.48}} \approx {\rm{272}}{\rm{.3 Hz}}$ 
 
+**`CH10-KP3-09`**:  如下图所示的三极管放大电路，已知图中所有电容都是 $10\;\mu\textrm{F}$， $V_{CC} = 10\;\textrm{V}$，$R_{B1} = R_{B2} = 4\;\textrm{k}\Omega$，$R_C = 500\; \Omega$， $R_L=R_{sig} = 1\;\textrm{k}\Omega$，$V_T = 25\; \textrm{mV}$，$\beta = 200$， 问：
 
+(1) 若要求 $I_E = 10\;\textrm{mA}$，计算 $R_E$ ，并求解此时的中频增益 $A_{vs} = \dfrac{v_o}{v_{sig}}$ 。
+
+(2) 估算电路的低频截止频率。频率接近 0 时信号的相移是多少？
+
+(3) 设三极管寄生电容 $C_{\mu} = 10\;\textrm{pF}$， $C_{\pi} = 100\;\textrm{pF}$，估算电路的高频截止频率。
+
+<img src="./freq.assets/image-20250824160137357.png" alt="image-20250824160137357" style="zoom:40%;" />
+
+><img src="./freq.assets/image-20250824160249846.png" alt="image-20250824160249846" style="zoom:35%;" />
+>
+><img src="./freq.assets/image-20250824160421488.png" alt="image-20250824160421488" style="zoom:35%;" />
+
+**`CH10-KP3-10`**: 当信号源内阻 $R_{sig}$ 较大时，下面电路的高频截止频率的表达式为________ 。
+
+<img src="./freq.assets/image-20250824143824302.png" alt="image-20250824143824302" style="zoom:35%;" />
+
+><img src="./freq.assets/image-20250824144029658.png" alt="image-20250824144029658" style="zoom:35%;" />
 
 ## 知识点4：其他
 
@@ -402,6 +424,18 @@ D. 引入一个高频极点
 **`CH10-KP4-02`**:当信号频率等于放大电路上限截止频率时，电路增益约下降为中频增益的约 ________ 倍。
 
 > 0.707。3dB偏差
+
+**`CH10-KP4-03`**: 在频率响应分析中，截止频率定义为________ 。
+
+A. 电压增益幅度达到最大值时对应的频率。
+
+B. 电压增益幅度下降到约为最大值70.7%时对应的频率。
+
+C. 电压增益相位偏移为90度时对应的频率。
+
+>B
+>
+>3 dB
 
 
 

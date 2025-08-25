@@ -338,3 +338,16 @@ C. 最大
 >
 ><img src="./pa.assets/image-20250823142152939.png" alt="image-20250823142152939" style="zoom:50%;" />
 
+**`CH12-KP2-14`**: 如下图所示的AB类放大器，已知2个三极管 $I_S = 10^{-14}\;\textrm{A}$，静态直流偏置电流 $I_Q = 1\;\textrm{mA}$，$R_L = 100\;\Omega$，$V_T = 25\; \textrm{mV}$。求：
+
+(1) 求 $V_{BB}$                          
+
+(2) 当 $V_I = 0$ 时，求输出电阻 $R_{out}$ 和对应的小信号电压增益 $A_v$ 
+
+(3) 当 $V_O = 10\;\textrm{V}$ 时，求输出电阻 $R_{out}$ 和对应的小信号电压增益 $A_v$  
+
+<img src="./pa.assets/image-20250825093004230.png" alt="image-20250825093004230" style="zoom:40%;" />
+
+><img src="./pa.assets/image-20250825093136092.png" alt="image-20250825093136092" style="zoom:40%;" />
+>
+>

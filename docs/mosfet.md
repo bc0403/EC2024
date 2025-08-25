@@ -245,3 +245,9 @@ D. 栅极电压－ $V_t$
 >电压，共漏
 >
 >source follower 是电压跟随，common drain
+
+**`CH08-KP3-08`**: 下图是由一个增强型NMOS管组成的放大电路，已知 $k_n' \dfrac{W}{L} = 2\; \textrm{mA}/\textrm{V}^2$，$|V_t|=2\;\textrm{V}$，$V_{DD} = V_{SS} = 10\;\textrm{V}$，若要求 $I_D = 1\; \textrm{mA}$，漏极上的信号峰峰值为 $2\;\textrm{V}$，求电阻 $R_S$ 的值，以及电阻 $R_D$ 的取值范围。
+
+<img src="./mosfet.assets/image-20250824154203880.png" alt="image-20250824154203880" style="zoom:40%;" />
+
+> <img src="./mosfet.assets/image-20250824154257195.png" alt="image-20250824154257195" style="zoom:35%;" />
