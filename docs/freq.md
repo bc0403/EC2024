@@ -406,6 +406,10 @@ D. 引入一个高频极点
 ><img src="./freq.assets/image-20250824160249846.png" alt="image-20250824160249846" style="zoom:35%;" />
 >
 ><img src="./freq.assets/image-20250824160421488.png" alt="image-20250824160421488" style="zoom:35%;" />
+>
+>$C_{in} = C_{\pi} + (1+A_v)C_{\mu} = 1.44\; \textrm{nF}$
+>
+>$f_H = \dfrac{1}{2\pi(R_{sig}||R_{in})C_{in}} = 387\;\textrm{kHz}$
 
 **`CH10-KP3-10`**: 当信号源内阻 $R_{sig}$ 较大时，下面电路的高频截止频率的表达式为________ 。
 
