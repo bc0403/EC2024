@@ -240,7 +240,7 @@ D. 放大电路的静态工作点不合适
 
 > $f_H$、$f_L$ 的表达式分析如下：
 >
-> ​	 ${A_{\rm{m}}} = \frac{{{R_g}}}{{{R_{\rm{s}}} + {R_g}}}( - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L}) \approx  - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L} \approx  - 12.4$ 
+> ​	 ${A_{\rm{m}}} = \frac{{{R_g}}}{{{R_{\rm{ss}}} + {R_g}}}( - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L}) \approx  - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L} \approx  - 12.4$ 
 >
 > ​	 $R_s \rm{//} \frac{1}{g_m} \ll R_s+R_{ss}$ ， $R_s \rm{//} \frac{1}{g_m} \ll R_d+R_L$ 
 >
