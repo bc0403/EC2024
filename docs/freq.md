@@ -240,7 +240,7 @@ D. 放大电路的静态工作点不合适
 
 > $f_H$、$f_L$ 的表达式分析如下：
 >
-> ​	 ${A_{\rm{m}}} = \frac{{{R_g}}}{{{R_{\rm{s}}} + {R_g}}}( - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L}) \approx  - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L} \approx  - 12.4$ 
+> ​	 ${A_{\rm{m}}} = \frac{{{R_g}}}{{{R_{\rm{ss}}} + {R_g}}}( - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L}) \approx  - {g_{\rm{m}}}{R_d}{\rm{//}}{R_L} \approx  - 12.4$ 
 >
 > ​	 $R_s \rm{//} \frac{1}{g_m} \ll R_s+R_{ss}$ ， $R_s \rm{//} \frac{1}{g_m} \ll R_d+R_L$ 
 >
@@ -248,7 +248,7 @@ D. 放大电路的静态工作点不合适
 >
 > ​	 ${{C'}_{gs}} = {C_{{\rm{gs}}}} + (1 + {g_{\rm{m}}}{R_d}{\rm{//}}{R_L}){C_{{\rm{gd}}}} \approx 72{\rm{pF}}$ 
 >
-> ​	 ${f_{\rm{H}}} = \frac{1}{{2\pi ({R_{\rm{s}}}{\rm{//}}{R_{\rm{g}}})C_{{\rm{gs}}}^{\rm{'}}}} \approx \frac{1}{{2{\rm{\pi }}{R_{\rm{s}}}C_{{\rm{gs}}}^{\rm{'}}}} \approx 1.1{\rm{MHz}}$ 
+> ​	 ${f_{\rm{H}}} = \frac{1}{{2\pi ({R_{\rm{ss}}}{\rm{//}}{R_{\rm{g}}})C_{{\rm{gs}}}^{\rm{'}}}} \approx \frac{1}{{2{\rm{\pi }}{R_{\rm{ss}}}C_{{\rm{gs}}}^{\rm{'}}}} \approx 1.1{\rm{MHz}}$ 
 >
 > ​	 
 >
