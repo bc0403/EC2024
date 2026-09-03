@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy'
 
 # deploy to GitHub Pages
-git push -f git@github.com:bc0403/EC2024.git HEAD:gh-pages
+git push -f https://github.com/bc0403/EC2024.git HEAD:gh-pages
 
 cd -
