@@ -9,7 +9,7 @@ Course material for "Fundamentals of Electric and Electronic Circuits"
 ### Install
 ```
 yarn add -D vitepress
-yarn add markdown-it-mathjax3
+yarn add -D markdown-it-mathjax3@^4
 ```
 ### Usage
 * run `yarn docs:dev` will start a local dev server with instant hot updates.
