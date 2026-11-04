@@ -6,8 +6,8 @@
   "author": "bc0403 <hjin.zj@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "markdown-it-mathjax3": "4.3.2",
-    "vitepress": "1.6.4",
+    "markdown-it-mathjax3": "^4",
+    "vitepress": "^1.6.4",
     "vue": "^3.2.38"
   },
   "scripts": {
